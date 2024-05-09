@@ -1,0 +1,73 @@
+/* Center the content vertically and horizontally */
+.grid {
+    @apply h-screen;
+    display: grid;
+    place-items: center;
+  }
+  
+  /* Style for the input container */
+  .input-container {
+    margin-bottom: 1rem;
+  }
+  
+  .input-container input {
+    @apply border border-gray-300 rounded px-4 py-2 mr-2;
+  }
+  
+  .input-container button {
+    @apply bg-blue-500 text-white px-4 py-2 rounded;
+  }
+  
+  /* Style for the profile section */
+  .profile {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .profile img {
+    @apply w-24 h-24 rounded-full mx-auto mb-2;
+  }
+  
+  .profile h2 {
+    @apply text-xl font-bold;
+  }
+  
+  .profile p {
+    @apply text-gray-700;
+  }
+  
+  /* Style for the loader */
+  .loader {
+    @apply border-t-4 border-b-4 border-blue-500 rounded-full w-12 h-12 animate-spin;
+  }
+  
+  /* Style for the repository */
+  .repository {
+    @apply border border-gray-300 rounded px-4 py-2 mb-4;
+  }
+  
+  .repository h3 {
+    @apply text-lg font-bold mb-2;
+  }
+  
+  .repository p {
+    @apply text-gray-700;
+  }
+  
+  /* Style for the pagination */
+  .pagination {
+    @apply flex items-center justify-center mt-4;
+  }
+  
+  .pagination button {
+    @apply bg-gray-200 text-gray-700 px-3 py-1 rounded-full mr-2;
+  }
+  
+  .pagination button:hover {
+    @apply bg-gray-300;
+  }
+  
+  .pagination select {
+    @apply border border-gray-300 rounded px-3 py-1;
+  }
+  
